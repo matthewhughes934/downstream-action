@@ -1,0 +1,12 @@
+name: Caller
+
+on:
+  workflow_dispatch:
+
+jobs:
+
+  Test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Go Test
+        uses: matthewhughes934/upstream-action/test@main
